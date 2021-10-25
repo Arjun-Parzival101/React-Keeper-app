@@ -7,6 +7,7 @@ function Note(props) {
   }
 
   return (
+<div className="flex">
     <div className="note">
       <h1>{props.title}</h1>
       <p>{props.content}</p>
@@ -14,6 +15,8 @@ function Note(props) {
         <DeleteIcon />
       </button>
     </div>
+    </div>
+
   );
 }
 
